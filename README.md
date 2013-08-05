@@ -25,8 +25,10 @@ Usage
 -----
 The settings saved in the extension will be applied to an entry (new or edited).
 
+If you are using [EE's native Search module](http://ellislab.com/expressionengine/user-guide/modules/search), you can use this extension to search categories via the **Text Field**.
+
 Original purpose
 ----------------
-We created this extension to combine with [Low Search](http://gotolow.com/addons/low-search) to search category names (and category synonyms) **with weighted values**. Instead of having Low Search index the categories themselves, we had it index the channel text field (which we hid from the client in the EE publish view). Many of the categories also had synonymous terms that needed to be equal to the main category name, which is why a selected custom category text field can be tacked on to the outputted string value to the channel text field.
+We created this extension to combine with [Low Search](http://gotolow.com/addons/low-search) to search category names (and category synonyms) **with weighted values**. Instead of having Low Search index the categories themselves, we had it index the channel text field (which we hid from the client in the EE publish view). Many of the categories also had synonymous terms that needed to be equal to the main category name, which is why a selected custom category text field can be tacked on to the outputted string value to the channel text field. (With EE 2.7, Low Search will be updated to allow weighted category searching.)
 
 We'd love hear how you're using this extension and how we can make it work even better for you.
